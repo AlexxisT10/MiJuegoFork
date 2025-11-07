@@ -93,8 +93,17 @@ public class GameController {
         circle.setUserData(points);
 
         // Evento de click: Pop y sumar puntos
-        circle.setOnMouseClicked(event -> {
+        circle.setOnMousePressed(event -> {
             model.addScore((int) circle.getUserData());
+            gamePane.getChildren().remove(circle);
+            event.consume();
+
+            // --- BONUS y VIDA EXTRA ---
+            if (model.getScore() >= 200) { // cuando llega a 200 puntos
+                model.addBonus(10);       // +10 puntos de bonus
+                model.extraLife();        // +1 vida extra
+            }
+
             gamePane.getChildren().remove(circle);
             event.consume();
         });
