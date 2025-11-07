@@ -86,17 +86,17 @@ Eliminé el README original y creé este nuevo documento explicando las mejoras 
 Además, añadí las capturas de pantalla del proceso dentro de una carpeta llamada `img`.
 
 CAPTURA DEL ARBOL DE GIT KRAKEN CON TODO REALIZADO
-![Captura GitKraken](./img/vista-general)
+![Captura GitKraken](./img/vista-general.png)
 
 CAPTURA DE LOS COMMITS EN GIT HUB
-![Captura Git Hub](./img/commits)
+![Captura Git Hub](./img/commits.png)
 
 CAPTURA DE LOS NUEVOS EXTRAS PARA EL JUEGO EN INTELLIJ IDEA
-![Captura IntelliJ IDEA](./img/game-controller)
+![Captura IntelliJ IDEA](./img/game-controller.png)
 
-![Captura IntelliJ IDEA](./img/game-model1)
+![Captura IntelliJ IDEA](./img/game-model1.png)
 
-![Captura IntelliJ IDEA](./img/game-model2)
+![Captura IntelliJ IDEA](./img/game-model2.png)
 
 
 
